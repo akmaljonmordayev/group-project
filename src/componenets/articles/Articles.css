@@ -173,6 +173,12 @@
     position: relative;
 }
 
+.card1 button:hover{
+    background-color: #FFFFFF;
+    color: #560CE3;
+    border: 1px solid #560CE3;
+}
+
 .card2 button {
     font-family: Poppins;
     font-weight: 600;
@@ -188,5 +194,11 @@
     color: white;
     padding: 5px;
     width: 150px;
+}
+
+.card2 button:hover{
+    background-color: #FFFFFF;
+    color: #560CE3;
+    border: 1px solid #560CE3;
 }
 
