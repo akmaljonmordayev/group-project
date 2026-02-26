@@ -1,10 +1,6 @@
-body {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    background: #f6f6f9;
-}
 
-.wrapper {
+
+.wrapper1 {
     padding: 60px;
 }
 
@@ -19,7 +15,7 @@ body {
     margin-bottom: 40px;
 }
 
-.cards {
+.cards1{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
