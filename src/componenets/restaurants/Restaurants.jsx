@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import "./Restaurants.css"
 
 
@@ -50,11 +49,11 @@ function Restaurans() {
 
 
     return (
-      <div className="wrapper">
+      <div className="wrapper1">
         <p className="top-text">Our Best Restaurant</p>
         <h1 className="title">Popular Restaurants In Town</h1>
 
-        <div className="cards">
+        <div className="cards1">
           {data.map((item, index) => (
             <div className="card" key={index}>
               <div className="image-box">
