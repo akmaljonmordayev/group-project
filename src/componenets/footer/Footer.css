@@ -150,6 +150,7 @@
   border-radius: 6px 0 0 6px;
   outline: none;
   flex-grow: 1;
+  color: black;
 }
 
 .newsletter button {
