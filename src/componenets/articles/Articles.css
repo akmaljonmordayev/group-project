@@ -1,0 +1,192 @@
+.texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.texts h4 {
+    font-family: Segoe Print;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 18.7px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #560CE3;
+}
+
+.texts h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 39.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #020615;
+    margin-top: 15px;
+}
+
+.texts p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #353844;
+    width: 418.5736083984375px;
+    margin-top: 10px;
+}
+
+.cards {
+    width: 496.8299865722656px;
+    height: 438px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 21px 21px 31px 21px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.cardss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 750px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+
+.cards h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #020615;
+    width: 405.3299865722656px;
+    margin-top: 20px;
+}
+
+.kalendar-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.clock-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.kalendar-clock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.kalendar-text p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 23.94px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #353844;
+    margin-top: 5px;
+}
+
+.clock-text p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 23.94px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #353844;
+    margin-top: 5px;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.card2 {
+    width: 705.1599731445312px;
+    height: 209px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    padding: 21px 61px 21px 21px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card1 button {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 110px;
+    right: 270px;
+    width: 160px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #560CE3;
+    color: white;
+}
+
+.card1 {
+    position: relative;
+}
+
+.card2 button {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+    background-color: #560CE3;
+    color: white;
+    padding: 5px;
+    width: 150px;
+}
+
