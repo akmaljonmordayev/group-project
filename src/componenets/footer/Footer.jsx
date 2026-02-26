@@ -3,11 +3,12 @@ import { MdOutlineAccessTimeFilled } from "react-icons/md";
 import { IoCall, IoLocation } from "react-icons/io5";
 import appDownload from "../../assets/app-download.png";
 import logo from "../../assets/Tourex logo.png";
+import { FaGooglePlay } from "react-icons/fa";
+import { FaApple } from "react-icons/fa";
 
 function Footer() {
   return (
     <div className="footer-wrapper">
-      {/* DOWNLOAD SECTION */}
       <div className="download-box">
         <div className="download-left">
           <div className="phone-images">
@@ -28,12 +29,11 @@ function Footer() {
         </div>
 
         <div className="download-right">
-          <button className="store-btn">Google Play</button>
-          <button className="store-btn">App Store</button>
+          <button className="store-btn"><FaGooglePlay />Google Play</button>
+          <button className="store-btn"><FaApple />App Store</button>
         </div>
       </div>
 
-      {/* FOOTER */}
       <div className="footer">
         <div className="col">
           <div className="logo">
