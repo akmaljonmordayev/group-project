@@ -1,0 +1,273 @@
+/* 1. Umumiy Konteyner va shriftlar */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Jua&display=swap');
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.hero-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav-wrapper {
+  background: linear-gradient(180deg, rgba(0, 0, 2, 3.9) 0%, rgba(0, 0, 0, 0) 100%);
+  padding: 20px 0;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.logo-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-family: 'Jua', sans-serif;
+  font-size: 30px;
+  color: white !important;
+  line-height: 100%;
+}
+
+.logo-subtitle {
+  font-family: 'Jua', sans-serif;
+  font-size: 14px;
+  color: white !important;
+  opacity: 0.9;
+}
+
+.nav-center ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-center ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-center ul li a:hover {
+  opacity: 0.7;
+}
+
+.arrow {
+  font-size: 14px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon {
+  font-size: 28px;
+  color: white;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: 100px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: white;
+  color: black;
+}
+
+.divider {
+  width: 1px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hamburger-divider {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger-divider span {
+  display: block;
+  height: 2px;
+  width: 25px;
+  background-color: white;
+}
+
+.showcase-area {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-bottom: 100px; 
+}
+
+.subtitle {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 46.7px;
+line-height: 55px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: rgb(153, 140, 153);
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(209, 190, 190)  ;
+}
+
+.glass-search-bar {
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(15px); 
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1144px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.input-group label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.input-group input {
+  background: white;
+  border: none;
+  color: black;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  padding: 9px ;
+  border-radius: 8px;
+}
+
+.input-group input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-submit-btn {
+  background: #6200EE;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 9px 75px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.search-submit-btn:hover {
+  background: #4f00c2;
+  transform: translateY(-2px);
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover{
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+    transform: scale(1.05);
+    transform: rotate(2deg);
+    color: rgb(255, 0, 0);
+}
+
+.search-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    cursor: pointer;
+}
+
+
